@@ -1,0 +1,43 @@
+.cage-icon {
+  display: flex;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  color: #000;
+  margin: 16px;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  &_dead {
+    background: rgb(30, 117, 143);
+    background: linear-gradient(
+      180deg,
+      rgba(30, 117, 143, 1) 27%,
+      rgba(30, 143, 47, 0.7819502801120448) 96%
+    );
+  }
+
+  &_live {
+    background: rgb(255, 215, 88);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 215, 88, 1) 26%,
+      rgba(246, 247, 151, 0.9051995798319328) 75%
+    );
+  }
+
+  &_birth {
+    background: rgb(213, 85, 245);
+    background: linear-gradient(
+      180deg,
+      rgba(213, 85, 245, 1) 45%,
+      rgba(247, 151, 224, 0.9668242296918768) 84%
+    );
+  }
+}

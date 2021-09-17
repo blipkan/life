@@ -1,0 +1,60 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "shippedProposals": true,
+        "ignoreBrowserslistConfig": true,
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-flow"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-function-bind",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-syntax-dynamic-import",
+    [
+      "react-intl-auto",
+      {
+        "removePrefix": "src.components",
+        "filebase": false
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ],
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    },
+    "developvent": {
+      "presets": [
+        [
+          "@babel/preset-react",
+          {
+            "development": true
+          }
+        ]
+      ],
+      "plugins": ["react-flow-props-to-prop-types", "react-hot-loader/babel"]
+    },
+    "production": {
+      "plugins": ["transform-react-remove-prop-types"]
+    }
+  }
+}

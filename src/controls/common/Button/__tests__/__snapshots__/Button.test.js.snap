@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button render component 1`] = `
+<div
+  className="button"
+  id="button"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Button render props 1`] = `
+<div
+  className="button CLASSNAME"
+  id="DOMID"
+  onClick={[Function]}
+  title="HINT"
+>
+  CAPTION
+</div>
+`;

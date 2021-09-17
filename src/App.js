@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { IntlProvider } from 'react-intl'
 
-function App() {
+import Life from 'components/Life'
+import { useLangMessages } from 'services/Language/useLangMessages'
+
+import './App.scss'
+
+const App = () => {
+  const { langKey, messages, isReady: isLangReady } = useLangMessages()
+
+  if (!isLangReady) {
+    return null
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <IntlProvider
+      textComponent={React.Fragment}
+      locale={langKey}
+      defaultLocale={langKey}
+      messages={messages}
+    >
+      <Life />
+    </IntlProvider>
+  )
 }
 
-export default App;
+export default App

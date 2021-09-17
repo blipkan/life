@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon render component 1`] = `
+<div
+  className="icon"
+  id="icon"
+  title="blank"
+>
+  <img
+    alt="blank"
+    id="icon_img"
+    src="test-file-stub"
+    title="blank"
+  />
+</div>
+`;
+
+exports[`Icon render props 1`] = `
+<div
+  className="icon CLASSNAME"
+  id="DOMID"
+  title="HINT"
+>
+  <img
+    alt="HINT"
+    id="DOMID_img"
+    src="test-file-stub"
+    title="HINT"
+  />
+</div>
+`;

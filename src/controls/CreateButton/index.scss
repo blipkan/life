@@ -1,0 +1,11 @@
+.button-create {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 4px 16px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #432654;
+    font-size: 15px;
+  }
+}

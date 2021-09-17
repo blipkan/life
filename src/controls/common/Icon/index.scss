@@ -1,0 +1,17 @@
+.icon {
+  display: flex;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  color: #000;
+  margin: 16px;
+  transition: all 0.3s ease-in-out;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}

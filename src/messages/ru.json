@@ -1,0 +1,34 @@
+{
+  "WorldItem": {
+    "DEAD": {
+      "description": "или прикидывается",
+      "title": "Мёртвая"
+    },
+    "LIFE": {
+      "description": "Ку-ку!",
+      "title": "Жизнь"
+    },
+    "LIVE": {
+      "description": "и шевелится!",
+      "title": "Живая"
+    }
+  },
+  "controls": {
+    "CreateButton": {
+      "caption": "СОТВОРИТЬ",
+      "hint": "Создать новую клетку..."
+    }
+  },
+  "header": {
+    "controls": {
+      "cleareButton": {
+        "caption": "[X]",
+        "hint": "Очистить историю жизни..."
+      }
+    },
+    "titleBar": {
+      "caption": "Клеточное наполнение",
+      "hint": "Вернуться в начало..."
+    }
+  }
+}

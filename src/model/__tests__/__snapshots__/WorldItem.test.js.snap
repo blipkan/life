@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorldItem.constructor WRONG constructor - undefined typeKey (throw Error) 1`] = `"Cannot create WorldItem by arguments: typeKey:undefined"`;
+
+exports[`WorldItem.constructor WRONG constructor - wrong statusKey (throw Error) 1`] = `"Cannot create WorldItem by arguments: statusKey:wrongStatusKey"`;
+
+exports[`WorldItem.constructor WRONG constructor - wrong typeKey (throw Error) 1`] = `"Cannot create WorldItem by arguments: typeKey:wrongTypeKey"`;
+
+exports[`WorldItem.constructor WRONG constructor - wrong typeKey AND wrong statusKey (throw Error) 1`] = `"Cannot create WorldItem by arguments: typeKey:wrongTypeKey,statusKey:wrongStatusKey"`;
+
+exports[`WorldItem.update SUCCESS update readOnly - throw Error 1`] = `"Cannot set property typeKey of #<WorldItem> which has only a getter"`;

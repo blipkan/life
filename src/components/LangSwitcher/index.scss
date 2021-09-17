@@ -1,0 +1,32 @@
+.lang-switcher {
+  position: absolute;
+  right: 16px;
+  top: 4px;
+  display: flex;
+  color: #fff;
+  max-height: 72px;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-items: center;
+  font-size: 12px;
+
+  &__item {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    vertical-align: center;
+    margin-left: 4px;
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 0 4px 2px 4px;
+    text-decoration: underline;
+    font-weight: 700;
+
+    &_selected {
+      background-color: #5a3472;
+      text-decoration: none;
+      font-weight: normal;
+      cursor: auto;
+    }
+  }
+}

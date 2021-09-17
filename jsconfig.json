@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "src",
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "build", "coverage"],
+  "include": ["src"]
+}

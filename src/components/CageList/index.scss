@@ -1,0 +1,10 @@
+.cage-list {
+  display: flex;
+  padding: 0 10px 0 16px;
+  flex-flow: column;
+  width: auto;
+
+  &.scrolled {
+    padding-right: 4px;
+  }
+}

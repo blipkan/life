@@ -1,0 +1,39 @@
+.life-stats {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-items: center;
+  font-size: 12px;
+  width: 100%;
+  padding: 4px;
+  position: relative;
+
+  &__total {
+    position: absolute;
+    right: 4px;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex-grow: 1;
+
+    &__value {
+    }
+
+    &__icon {
+    }
+
+    .cage-icon {
+      width: 18px;
+      height: 18px;
+      margin: 0;
+      img {
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+}

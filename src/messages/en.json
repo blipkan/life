@@ -1,0 +1,34 @@
+{
+  "WorldItem": {
+    "DEAD": {
+      "description": "or pretends",
+      "title": "Dead"
+    },
+    "LIFE": {
+      "description": "Ku-ku!",
+      "title": "Life"
+    },
+    "LIVE": {
+      "description": "and it moves!",
+      "title": "Live"
+    }
+  },
+  "controls": {
+    "CreateButton": {
+      "caption": "Create",
+      "hint": "create new cage.."
+    }
+  },
+  "header": {
+    "controls": {
+      "cleareButton": {
+        "caption": "",
+        "hint": ""
+      }
+    },
+    "titleBar": {
+      "caption": "Life",
+      "hint": "click to scroll top"
+    }
+  }
+}

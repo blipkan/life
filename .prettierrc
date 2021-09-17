@@ -1,0 +1,27 @@
+{
+  "parser": "babel",
+  "semi": false,
+  "singleQuote": true,
+  "jsxBracketSameLine": false,
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.css", "*.scss"],
+      "options": {
+        "parser": "postcss"
+      }
+    },
+    {
+      "files": [
+        "*.json",
+        ".prettierrc",
+        ".eslintrc",
+        ".stylelintrc",
+        ".babelrc"
+      ],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}

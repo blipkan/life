@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateButton render component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "defaultRichTextElements": undefined,
+      "formatDate": [Function],
+      "formatDateTimeRange": [Function],
+      "formatDateToParts": [Function],
+      "formatDisplayName": [Function],
+      "formatList": [Function],
+      "formatListToParts": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatNumberToParts": [Function],
+      "formatPlural": [Function],
+      "formatRelativeTime": [Function],
+      "formatTime": [Function],
+      "formatTimeToParts": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getDisplayNames": [Function],
+        "getListFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralRules": [Function],
+        "getRelativeTimeFormat": [Function],
+      },
+      "locale": "ru",
+      "messages": Object {
+        "WorldItem.DEAD.description": "или прикидывается",
+        "WorldItem.DEAD.title": "Мёртвая",
+        "WorldItem.LIFE.description": "Ку-ку!",
+        "WorldItem.LIFE.title": "Жизнь",
+        "WorldItem.LIVE.description": "и шевелится!",
+        "WorldItem.LIVE.title": "Живая",
+        "controls.CreateButton.caption": "СОТВОРИТЬ",
+        "controls.CreateButton.hint": "Создать новую клетку...",
+        "header.controls.cleareButton.caption": "[X]",
+        "header.controls.cleareButton.hint": "Очистить историю жизни...",
+        "header.titleBar.caption": "Клеточное наполнение",
+        "header.titleBar.hint": "Вернуться в начало...",
+      },
+      "onError": [Function],
+      "textComponent": Symbol(react.fragment),
+      "timeZone": undefined,
+      "wrapRichTextChunksInFragment": undefined,
+    }
+  }
+>
+  <CreateButton />
+</ContextProvider>
+`;

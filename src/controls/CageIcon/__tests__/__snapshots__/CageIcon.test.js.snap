@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CageIcon render component 1`] = `
+<Icon
+  className="cage-icon cage-icon"
+  domId="cage-icon"
+/>
+`;
+
+exports[`CageIcon render props 1`] = `
+<Icon
+  className="cage-icon CLASSNAME cage-icon CLASSNAME"
+  domId="DOMID"
+/>
+`;

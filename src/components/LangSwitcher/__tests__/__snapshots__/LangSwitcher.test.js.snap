@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LangSwitcher render component 1`] = `
+<div
+  className="lang-switcher"
+  id="lang-switcher"
+>
+  <span
+    className="lang-switcher__item lang-switcher__item_selected"
+    id="lang-switcher_item"
+    key="ru"
+    onClick={[Function]}
+    title="Русский"
+  >
+    рус
+  </span>
+  <span
+    className="lang-switcher__item"
+    id="lang-switcher_item"
+    key="en"
+    onClick={[Function]}
+    title="English"
+  >
+    en
+  </span>
+</div>
+`;

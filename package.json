@@ -27,7 +27,6 @@
     "eject": "react-scripts eject",
     "extract-messages": "extract-messages -l=ru,en -o src/messages -d ru --flat false \"src/**/!(*.test).js\""
   },
-
   "jest": {
     "moduleNameMapper": {
       "\\.(css|scss)$": "identity-obj-proxy",
@@ -37,9 +36,7 @@
       "^lodash-es$": "lodash"
     },
     "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "collectCoverageFrom": [
-      "<rootDir>/src/**/*.{js,jsx}"
-    ],
+    "collectCoverageFrom": ["<rootDir>/src/**/*.{js,jsx}"],
     "coveragePathIgnorePatterns": [
       "<rootDir>/src/testUtils/*",
       "<rootDir>/src/constants/*",

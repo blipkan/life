@@ -83,7 +83,7 @@ const Life = props => {
   }
 
   const doAnimationEnd = e => {
-    console.log('onAnimationEnd===', e)
+    // console.log('onAnimationEnd===', e)
   }
 
   const stats = logic.getStats(manager.worldItems)
